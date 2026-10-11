@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+dataset/
+out_pnp_and_ransac/
+out_feature_tracking/
+out_bundle_adjustment/
+out_project/
+*.pkl

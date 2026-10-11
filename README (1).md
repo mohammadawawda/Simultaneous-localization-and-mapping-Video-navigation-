@@ -1,0 +1,10 @@
+# Feature tracking
+
+Made by Mohammad Awawda.
+
+We begin by loading KITTI‐style stereo intrinsics and ground‐truth poses,
+then build a “TrackDB” that associates stereo keypoints over time,
+perform several statistical analyses on those tracks (connectivity, inlier percentage, length histograms),
+visualize one example long track as image patches, and finally compute and
+plot reprojection errors using ground‐truth camera poses—all organized into
+separate functions called from a single main()
